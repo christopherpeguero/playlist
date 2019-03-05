@@ -4,7 +4,7 @@ body{
 #title{
     display:flex;
     justify-content:center;
-    font-size:330%;
+    font-size:75px;
     font-family: 'Oswald', sans-serif;
     letter-spacing:2.5px;
     color:white;
@@ -13,7 +13,7 @@ body{
     display:flex;
     justify-content:center;
     font-family: 'Fira Sans', sans-serif;
-    font-size:120%;
+    font-size:30px;
     color:white;
 }
 .new{

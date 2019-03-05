@@ -1,0 +1,107 @@
+body{
+    background-color:#EA1414;
+}
+#title{
+    display:flex;
+    justify-content:center;
+    font-size:330%;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing:2.5px;
+    color:white;
+}
+#subtitle{
+    display:flex;
+    justify-content:center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size:120%;
+    color:white;
+}
+.new{
+    font-size:15px;
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+    background-color:black;
+    color:white;
+}
+#create{
+    display:flex;
+    justify-content:center;
+}
+::placeholder {
+  color:white;
+  opacity: 1;
+}
+#songlist{
+    display:flex;
+    flex-direction: row;
+    margin-left:10px;
+}
+#artistlist{
+    display:flex;
+    flex-direction:row;
+    margin-left:10px;
+}
+#add{
+    margin-top:10px;
+    font-size:17px;
+    background-color:black;
+    color:white;
+}
+#imagelist{
+    display:flex;
+    flex-direction:row;
+    margin-left:10px;
+}
+#videolist{
+    display:flex;
+    flex-direction:row;
+    margin-left:10px;
+}
+.artist{
+    height:50px;
+    width:300px;
+    background-color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size:25px;
+    display:flex;
+    justify-content:center;
+}
+.name{
+    margin-top:30px;
+    height:75px;
+    width:300px;
+    background-color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size:50px;
+    display:flex;
+    justify-content:center;
+}
+.image{
+    height:300px;
+    width:300px;
+    background-color:white;
+    display:flex;
+    justify-content:center;
+}
+img{
+    width:75%;
+    height:75%;
+}
+.video{
+    height:50px;
+    width:300px;
+    background-color:white;
+    font-family: 'Oswald', sans-serif;
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+}
+a{
+    text-decoration: none;
+    color:#EA1414;
+    font-family: 'Fira Sans', sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
